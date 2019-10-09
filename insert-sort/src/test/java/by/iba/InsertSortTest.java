@@ -21,7 +21,7 @@ public class InsertSortTest {
             insertSort.sort(new int[]{});
         }
         catch (Exception e) {
-            assertThat(e, not(instanceOf(RuntimeException.class)));
+            assertThat(e, not(instanceOf(NullPointerException.class)));
         }
     }
 
