@@ -3,8 +3,7 @@ package by.iba;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.hamcrest.Matchers.instanceOf;
-import static org.hamcrest.Matchers.not;
+import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
 public class BubbleSortTest {
