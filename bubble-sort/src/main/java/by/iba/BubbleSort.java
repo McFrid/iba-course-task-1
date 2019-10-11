@@ -11,7 +11,7 @@ class BubbleSort {
                     //swap elements
                     temp = arr[j-1];
                     arr[j-1] = arr[j];
-                    arr[j] = temp;
+                    arr[j] = temp ;
                 }
 
             }
