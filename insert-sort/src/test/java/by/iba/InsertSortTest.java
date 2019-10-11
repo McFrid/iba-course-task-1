@@ -31,7 +31,7 @@ public class InsertSortTest {
             insertSort.sort(null);
         }
         catch (Exception e) {
-            assertThat(e, not(instanceOf(RuntimeException.class)));
+            assertThat(e, instanceOf(NullPointerException.class));
         }
     }
     
