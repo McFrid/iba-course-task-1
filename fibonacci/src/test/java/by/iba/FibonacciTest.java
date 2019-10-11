@@ -9,9 +9,7 @@ public class FibonacciTest {
     private Fibonacci fibonacci;
 
     @Before
-    public void init() {
-        fibonacci = new Fibonacci();
-    }
+    public void init() { fibonacci = new Fibonacci(); }
 
     @Test
     public void fibonacciZero() {
